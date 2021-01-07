@@ -17,3 +17,6 @@ GET - /api/tasks/{Task UUID of the task}?action=get_numlist  ---> http://localho
 FOr the BUlk Generate to optimize to make it wor parallely --- (In Progress)
 1. We can use CompletableFuture to get all the tasks done in parallel.
 2. Executor's framework can be used to run all the future tasks - Fork Join pool
+
+
+#Deployement as containerized files - using docker and kuberntes (In progress)
